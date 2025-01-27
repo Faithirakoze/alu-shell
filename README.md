@@ -1,2 +1,2 @@
 # alu-shell
-Shell basics project
+This is my first shell scripting project
