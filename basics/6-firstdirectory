@@ -1,3 +1,2 @@
 #!/bin/bash
-location="/tmp/my_first_directory"
-mkdir "$location"
+mkdir "/tmp/first_directory/"
