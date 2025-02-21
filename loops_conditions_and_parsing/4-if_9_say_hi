@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+#This script displays a while loop and an if statement
+n=1
+while [ $n -le 10 ]
+do
+  echo "Best School"
+(( n++ ))
+done
+
+if [ $n -le 10 ]
+then 
+  echo "Hi" | tail -n 3
+fi
