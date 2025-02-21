@@ -1,13 +1,12 @@
 #!/usr/bin/env bash
 #This script displays a while loop and an if statement
 n=1
-while [ $n -le 10 ]
-do
-  echo "Best School"
+while [ $n -le 10 ]; do
+if [ $n -eq 9 ]; then
+	echo "Best School"
+	echo "Hi"
+else
+	echo "Best School"
+fi 
 (( n++ ))
 done
-
-if [ $n -le 10 ]
-then 
-  echo "Hi" | tail -n 3
-fi
